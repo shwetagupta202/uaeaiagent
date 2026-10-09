@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { CheckCircle2, MessageCircle, Sparkles, ShieldCheck, Calendar, Clock, Users, Gift } from "lucide-react";
 import { SiteFooter } from "@/components/landing/SiteFooter";
 
-const WHATSAPP_URL = "https://chat.whatsapp.com/CA8jNwWwsGcKfdQ9dj7TMC";
+const WHATSAPP_URL = "https://chat.whatsapp.com/LgykPAzICLw8BPJdu3E0Zu";
 
 export const Route = createFileRoute("/thank-you")({
   component: ThankYou,
