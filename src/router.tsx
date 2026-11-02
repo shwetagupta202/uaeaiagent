@@ -55,6 +55,8 @@ function DefaultErrorComponentInner({ error, reset }: { error: Error; reset: () 
   );
 }
 
+const DefaultErrorComponent = lazy(async () => ({ default: DefaultErrorComponentInner }));
+
 export const getRouter = () => {
   const router = createRouter({
     routeTree,
