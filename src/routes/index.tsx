@@ -15,7 +15,28 @@ import { Countdown } from "@/components/landing/Countdown";
 import { ExitIntent } from "@/components/landing/ExitIntent";
 import { SiteFooter } from "@/components/landing/SiteFooter";
 import { WEBINAR } from "@/lib/webinar";
-import coachImg from "@/assets/coach-shweta.jpeg";
+import coachImg from "@/assets/coach-shweta.png.asset.json";
+import recShirish from "@/assets/shirish-recommendation.png.asset.json";
+import recPankaj from "@/assets/pankaj-recommendation.png.asset.json";
+import recVijay from "@/assets/vijay-recommendation.png.asset.json";
+import recOmkar from "@/assets/omkar-testimonial.png.asset.json";
+import recLinkedIn1 from "@/assets/linkedin-recommendation-1.jpg.asset.json";
+import recLinkedIn2 from "@/assets/linkedin-recommendation-2.jpg.asset.json";
+import recLinkedIn3 from "@/assets/linkedin-recommendation-3.jpg.asset.json";
+import recSamyuktha from "@/assets/samyuktha-recommendation.png.asset.json";
+import recVijayYadav from "@/assets/vijay-yadav-recommendation.png.asset.json";
+
+const RECOMMENDATIONS = [
+  { src: recShirish, alt: "Recommendation from student Shirish" },
+  { src: recPankaj, alt: "Recommendation from student Pankaj" },
+  { src: recVijay, alt: "Recommendation from student Vijay" },
+  { src: recOmkar, alt: "Testimonial from student Omkar" },
+  { src: recLinkedIn1, alt: "LinkedIn recommendation post" },
+  { src: recLinkedIn2, alt: "LinkedIn recommendation post" },
+  { src: recLinkedIn3, alt: "LinkedIn recommendation post" },
+  { src: recSamyuktha, alt: "Recommendation from student Samyuktha" },
+  { src: recVijayYadav, alt: "Recommendation from student Vijay Yadav" },
+];
 
 export const Route = createFileRoute("/")({
   component: Landing,
@@ -183,7 +204,7 @@ function Landing() {
               {/* Coach card */}
               <div className="mt-7 flex items-center gap-4 rounded-2xl border border-primary/30 bg-card/80 backdrop-blur p-3 sm:p-4 shadow-lg max-w-md mx-auto lg:mx-0">
                 <img
-                  src={coachImg}
+                  src={coachImg.url}
                   alt="Coach Shweta Gupta — Best AI Agent Female Coach in India"
                   className="h-16 w-16 sm:h-20 sm:w-20 rounded-full object-cover ring-2 ring-primary/40"
                   loading="eager"
@@ -392,6 +413,36 @@ function Landing() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* STUDENT RECOMMENDATIONS */}
+      <section className="px-5 py-20 sm:py-24 bg-card/40">
+        <div className="mx-auto max-w-6xl">
+          <SectionTitle
+            eyebrow="Student Proof"
+            title="Our Student's Recommendations"
+            sub="Real recommendations from professionals and business owners who have learned and implemented with us."
+          />
+          <div className="mt-12 columns-1 sm:columns-2 lg:columns-3 gap-5 [column-fill:balance]">
+            {RECOMMENDATIONS.map((r, i) => (
+              <div
+                key={i}
+                className="mb-5 break-inside-avoid rounded-2xl border border-border bg-card p-3 shadow-sm hover:border-primary/40 transition"
+              >
+                <img
+                  src={r.src.url}
+                  alt={r.alt}
+                  loading="lazy"
+                  className="w-full h-auto rounded-xl"
+                />
+              </div>
+            ))}
+          </div>
+          <p className="mt-8 text-center text-sm text-muted-foreground">
+            <Star className="mr-1 inline h-4 w-4 text-primary" />
+            Trusted by professionals across India &amp; the UAE
+          </p>
         </div>
       </section>
 
