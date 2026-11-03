@@ -15,7 +15,7 @@ import { Countdown } from "@/components/landing/Countdown";
 import { ExitIntent } from "@/components/landing/ExitIntent";
 import { SiteFooter } from "@/components/landing/SiteFooter";
 import { WEBINAR } from "@/lib/webinar";
-import coachImg from "@/assets/coach-shweta.png.asset.json";
+import coachImg from "@/assets/shweta-gupta.png.asset.json";
 import recShirish from "@/assets/shirish-recommendation.png.asset.json";
 import recPankaj from "@/assets/pankaj-recommendation.png.asset.json";
 import recVijay from "@/assets/vijay-recommendation.png.asset.json";
