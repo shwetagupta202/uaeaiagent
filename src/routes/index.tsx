@@ -204,7 +204,7 @@ function Landing() {
               {/* Coach card */}
               <div className="mt-7 flex items-center gap-4 rounded-2xl border border-primary/30 bg-card/80 backdrop-blur p-3 sm:p-4 shadow-lg max-w-md mx-auto lg:mx-0">
                 <img
-                  src={coachImg.url}
+                  src={coachImg}
                   alt="Coach Shweta Gupta — Best AI Agent Female Coach in India"
                   className="h-16 w-16 sm:h-20 sm:w-20 rounded-full object-cover ring-2 ring-primary/40"
                   loading="eager"
@@ -431,7 +431,7 @@ function Landing() {
                 className="mb-5 break-inside-avoid rounded-2xl border border-border bg-card p-3 shadow-sm hover:border-primary/40 transition"
               >
                 <img
-                  src={r.src.url}
+                  src={r.src}
                   alt={r.alt}
                   loading="lazy"
                   className="w-full h-auto rounded-xl"
