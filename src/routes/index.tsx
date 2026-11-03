@@ -15,16 +15,16 @@ import { Countdown } from "@/components/landing/Countdown";
 import { ExitIntent } from "@/components/landing/ExitIntent";
 import { SiteFooter } from "@/components/landing/SiteFooter";
 import { WEBINAR } from "@/lib/webinar";
-import coachImg from "@/assets/shweta-gupta.png.asset.json";
-import recShirish from "@/assets/shirish-recommendation.png.asset.json";
-import recPankaj from "@/assets/pankaj-recommendation.png.asset.json";
-import recVijay from "@/assets/vijay-recommendation.png.asset.json";
-import recOmkar from "@/assets/omkar-testimonial.png.asset.json";
-import recLinkedIn1 from "@/assets/linkedin-recommendation-1.jpg.asset.json";
-import recLinkedIn2 from "@/assets/linkedin-recommendation-2.jpg.asset.json";
-import recLinkedIn3 from "@/assets/linkedin-recommendation-3.jpg.asset.json";
-import recSamyuktha from "@/assets/samyuktha-recommendation.png.asset.json";
-import recVijayYadav from "@/assets/vijay-yadav-recommendation.png.asset.json";
+import coachImg from "@/assets/shweta-gupta.png";
+import recShirish from "@/assets/shirish-recommendation.png";
+import recPankaj from "@/assets/pankaj-recommendation.png";
+import recVijay from "@/assets/vijay-recommendation.png";
+import recOmkar from "@/assets/omkar-testimonial.png";
+import recLinkedIn1 from "@/assets/linkedin-recommendation-1.jpg";
+import recLinkedIn2 from "@/assets/linkedin-recommendation-2.jpg";
+import recLinkedIn3 from "@/assets/linkedin-recommendation-3.jpg";
+import recSamyuktha from "@/assets/samyuktha-recommendation.png";
+import recVijayYadav from "@/assets/vijay-yadav-recommendation.png";
 
 const RECOMMENDATIONS = [
   { src: recShirish, alt: "Recommendation from student Shirish" },
