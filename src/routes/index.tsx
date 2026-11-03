@@ -15,7 +15,28 @@ import { Countdown } from "@/components/landing/Countdown";
 import { ExitIntent } from "@/components/landing/ExitIntent";
 import { SiteFooter } from "@/components/landing/SiteFooter";
 import { WEBINAR } from "@/lib/webinar";
-import coachImg from "@/assets/coach-shweta.jpeg";
+import coachImg from "@/assets/coach-shweta.png.asset.json";
+import recShirish from "@/assets/shirish-recommendation.png.asset.json";
+import recPankaj from "@/assets/pankaj-recommendation.png.asset.json";
+import recVijay from "@/assets/vijay-recommendation.png.asset.json";
+import recOmkar from "@/assets/omkar-testimonial.png.asset.json";
+import recLinkedIn1 from "@/assets/linkedin-recommendation-1.jpg.asset.json";
+import recLinkedIn2 from "@/assets/linkedin-recommendation-2.jpg.asset.json";
+import recLinkedIn3 from "@/assets/linkedin-recommendation-3.jpg.asset.json";
+import recSamyuktha from "@/assets/samyuktha-recommendation.png.asset.json";
+import recVijayYadav from "@/assets/vijay-yadav-recommendation.png.asset.json";
+
+const RECOMMENDATIONS = [
+  { src: recShirish, alt: "Recommendation from student Shirish" },
+  { src: recPankaj, alt: "Recommendation from student Pankaj" },
+  { src: recVijay, alt: "Recommendation from student Vijay" },
+  { src: recOmkar, alt: "Testimonial from student Omkar" },
+  { src: recLinkedIn1, alt: "LinkedIn recommendation post" },
+  { src: recLinkedIn2, alt: "LinkedIn recommendation post" },
+  { src: recLinkedIn3, alt: "LinkedIn recommendation post" },
+  { src: recSamyuktha, alt: "Recommendation from student Samyuktha" },
+  { src: recVijayYadav, alt: "Recommendation from student Vijay Yadav" },
+];
 
 export const Route = createFileRoute("/")({
   component: Landing,
