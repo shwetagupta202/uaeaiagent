@@ -6,9 +6,9 @@ export const WEBINAR = {
   /** Short date shown on cards, e.g. "15th Nov" */
   date: "15th Nov",
   /** Time with timezone, e.g. "9:30 AM GST" */
-  time: "9:30 AM GST",
-  /** Combined short form, e.g. "15th Nov, 9:30 AM" */
-  dateTimeShort: "15th Nov, 9:30 AM",
+  time: "11:00 AM GST",
+  /** Combined short form, e.g. "15th Nov, 11:00 AM" */
+  dateTimeShort: "15th Nov, 11:00 AM",
   /** Regular (strikethrough) price */
   regularPrice: "AED 99",
   /** Current offer price */

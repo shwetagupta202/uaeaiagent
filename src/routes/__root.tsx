@@ -48,6 +48,11 @@ export const Route = createRootRoute({
         href: appCss,
       },
       {
+        rel: "icon",
+        type: "image/png",
+        href: "/favicon.png",
+      },
+      {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@400;500;600;700;800&display=swap",
       },
